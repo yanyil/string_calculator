@@ -7,6 +7,6 @@ class StringCalculator
   private
 
   def get_number_array(string_number)
-    string_number.split(",").map(&:to_i)
+    string_number.gsub("\n", ",").split(",").map(&:to_i)
   end
 end
