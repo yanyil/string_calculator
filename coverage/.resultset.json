@@ -5,7 +5,7 @@
         1,
         null,
         1,
-        7,
+        8,
         null,
         1,
         1,
@@ -30,6 +30,12 @@
         null,
         1,
         1,
+        null,
+        null,
+        1,
+        1,
+        2,
+        null,
         null,
         null,
         null
@@ -37,7 +43,7 @@
       "/Users/yanyi/Documents/Projects/string_calculator/lib/string_calculator.rb": [
         1,
         1,
-        6,
+        7,
         6,
         5,
         null,
@@ -45,17 +51,25 @@
         1,
         null,
         1,
-        11,
-        11,
+        2,
+        2,
         null,
         null,
         1,
-        2,
-        2,
+        12,
+        12,
+        null,
+        null,
+        1,
+        23,
+        null,
+        null,
+        1,
+        6,
         null,
         null
       ]
     },
-    "timestamp": 1459855158
+    "timestamp": 1459859569
   }
 }

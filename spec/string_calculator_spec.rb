@@ -27,5 +27,11 @@ describe StringCalculator do
     it 'supports different delimiters' do
       expect(calculator.add("//;\n1;2")).to eq 3
     end
+
+    context 'when passed with negative numbers' do
+      it 'throws an exception and the negative that was passed' do
+        expect { calculator.add("-1") }.to raise_error "negatives not allowed: [-1]"
+      end
+    end
   end
 end
