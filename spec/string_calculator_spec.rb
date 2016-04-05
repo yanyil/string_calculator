@@ -15,5 +15,9 @@ describe StringCalculator do
     it 'returns their sum for 2 numbers' do
       expect(calculator.add("1,2")).to eq 3
     end
+
+    it 'can handle an unknown amount of numbers' do
+      expect(calculator.add("1,2,3,4")).to eq 10
+    end
   end
 end
