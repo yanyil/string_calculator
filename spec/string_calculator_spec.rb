@@ -32,6 +32,10 @@ describe StringCalculator do
       it 'throws an exception and the negative that was passed' do
         expect { calculator.add("-1") }.to raise_error "negatives not allowed: [-1]"
       end
+
+      it 'throws an exception and all of the negatives if there are multiple negatives' do
+        expect { calculator.add("-1,2,-3") }.to raise_error "negatives not allowed: [-1, -3]"
+      end
     end
   end
 end
