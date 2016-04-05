@@ -5,9 +5,13 @@
         1,
         null,
         1,
-        6,
+        7,
         null,
         1,
+        1,
+        1,
+        null,
+        null,
         1,
         1,
         null,
@@ -33,18 +37,25 @@
       "/Users/yanyi/Documents/Projects/string_calculator/lib/string_calculator.rb": [
         1,
         1,
+        6,
+        6,
         5,
-        4,
         null,
         null,
         1,
         null,
         1,
-        4,
+        11,
+        11,
+        null,
+        null,
+        1,
+        2,
+        2,
         null,
         null
       ]
     },
-    "timestamp": 1459853840
+    "timestamp": 1459855158
   }
 }
